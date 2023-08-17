@@ -1,5 +1,4 @@
 from statistics import variance, mean, stdev
-from math import sqrt
 
 def AjoutNombre():
     try:
