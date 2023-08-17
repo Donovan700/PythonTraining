@@ -7,12 +7,12 @@ def AjoutNombre():
             print("La taille doit être positive et non nulle!")
             return AjoutNombre()
         else:
-            Serie = []
+            Tableau = []
             for i in range(1, taille + 1):
                 print("\t+++", i, " occurence +++")
                 valeur = float(input("Entrer un reel: "))
-                Serie.append(valeur)
-            return Serie
+                Tableau.append(valeur)
+            return Tableau
     except:
         print("Vous devez entrer un chiffre!")
         return AjoutNombre()
